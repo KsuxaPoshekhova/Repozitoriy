@@ -3,6 +3,6 @@ public class Main {
         BmiService service = new BmiService() ;
         int weightKg = 98;
         double heightMt = 187;
-        System.out.println();
+        System.out.println(weightKg / (heightMt * heightMt));
     }
 }
